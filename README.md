@@ -1,5 +1,9 @@
 # CrasH Utils Custom Nodes
 
+## Snake!
+
+<img width="356" height="395" alt="image" src="https://github.com/user-attachments/assets/aedee4ce-15ff-433c-a877-35ff7e61da6e" />
+
 ## Image Glitcher
 
 Based on the HTML image glitcher by Felix Turner [here](https://www.airtightinteractive.com/demos/js/imageglitcher/).
