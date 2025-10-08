@@ -4,6 +4,7 @@ from .local_llm import QueryLocalLLM, ExtractCharacterInfo
 from .sdxl_resolution import SdxlResolution, SdxlResolutionToDimensions
 from .checkpoint_names import CheckpointNames
 from .snake_game import SnakeGame
+from .dino_game import DinoGame
 
 NODE_CLASS_MAPPINGS = {
     ImageGlitcher.NAME: ImageGlitcher,
@@ -13,10 +14,10 @@ NODE_CLASS_MAPPINGS = {
     SdxlResolutionToDimensions.NAME: SdxlResolutionToDimensions,
     CheckpointNames.NAME: CheckpointNames,
     ExtractCharacterInfo.NAME: ExtractCharacterInfo,
-    SnakeGame.NAME: SnakeGame
+    SnakeGame.NAME: SnakeGame,
+    DinoGame.NAME: DinoGame
 }
 
-# A dictionary that contains the friendly/humanly readable titles for the nodes
 NODE_DISPLAY_NAME_MAPPINGS = {
     "ImageGlitcher": "Image Glitcher",
     "ColorStylizer": "Color Stylizer",
@@ -25,7 +26,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "SdxlResolutionToDimensions": "SDXL Resolution To Dimensions",
     "CheckPointNames": "Checkpoint Names",
     "ExtractCharacterInfo": "Extract Character Info",
-    "SnakeGame": "Snake Game 🐍"
+    "SnakeGame": "Snake Game 🐍",
+    "DinoGame": "Dino Game 🦖"
 }
 
 __all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]
