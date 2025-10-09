@@ -1,8 +1,11 @@
 # CrasH Utils Custom Nodes
 
-## Snake!
+## Time wasting games
 
-<img width="356" height="395" alt="image" src="https://github.com/user-attachments/assets/aedee4ce-15ff-433c-a877-35ff7e61da6e" />
+<img width="982" height="916" alt="image" src="https://github.com/user-attachments/assets/6f1a2408-2f95-4c77-b4f1-c7a2285ca2f2" />
+
+Play Snake, Tetris, Space Invaders or the Dino game while you wait for gnerations to complete!
+
 
 ## Image Glitcher
 
