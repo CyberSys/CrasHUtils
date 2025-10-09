@@ -7,6 +7,7 @@ from .snake_game import SnakeGame
 from .dino_game import DinoGame
 from .tetris_game import TetrisGame
 from .space_invaders_game import SpaceInvadersGame
+from .doom_game import DoomGame
 
 NODE_CLASS_MAPPINGS = {
     ImageGlitcher.NAME: ImageGlitcher,
@@ -19,7 +20,8 @@ NODE_CLASS_MAPPINGS = {
     SnakeGame.NAME: SnakeGame,
     DinoGame.NAME: DinoGame,
     TetrisGame.NAME: TetrisGame,
-    SpaceInvadersGame.NAME: SpaceInvadersGame
+    SpaceInvadersGame.NAME: SpaceInvadersGame,
+    DoomGame.NAME: DoomGame
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -33,7 +35,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "SnakeGame": "Snake Game 🐍",
     "DinoGame": "Dino Game 🦖",
     "TetrisGame": "Tetris 🟦",
-    "SpaceInvadersGame": "Space Invaders 👾"
+    "SpaceInvadersGame": "Space Invaders 👾",
+    "DoomGame": "DOOM 👹"
 }
 
 __all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]
