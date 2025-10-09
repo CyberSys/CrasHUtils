@@ -224,28 +224,16 @@ Split SDXL Resolution output into separate width and height values.
 
 ---
 
-## 🔧 Loader Utilities
-
-### 📦 Checkpoint Names
-
-Get checkpoint filenames as strings for dynamic workflow control!
-
-**Purpose:** Returns the selected checkpoint name as a string output, useful for:
-- Conditional logic based on checkpoint
-- Saving checkpoint info with images
-- Workflow automation
-- Custom file naming
-
-**Usage:** Select a checkpoint from the dropdown, get the name as a string output.
-
----
-
 ## 📥 Installation
+
+! Recommended ! - Install through ComfyUI Manager, search for "CrasH Utils".
+
+Manual:
 
 1. Clone this repo into your `ComfyUI/custom_nodes/` directory:
    ```bash
    cd ComfyUI/custom_nodes/
-   git clone https://github.com/yourusername/CrasHUtils.git
+   git clone https://github.com/chrish-slingshot/CrasHUtils.git
    ```
 
 2. Restart ComfyUI
