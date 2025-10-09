@@ -5,6 +5,7 @@ from .sdxl_resolution import SdxlResolution, SdxlResolutionToDimensions
 from .checkpoint_names import CheckpointNames
 from .snake_game import SnakeGame
 from .dino_game import DinoGame
+from .tetris_game import TetrisGame
 
 NODE_CLASS_MAPPINGS = {
     ImageGlitcher.NAME: ImageGlitcher,
@@ -15,7 +16,8 @@ NODE_CLASS_MAPPINGS = {
     CheckpointNames.NAME: CheckpointNames,
     ExtractCharacterInfo.NAME: ExtractCharacterInfo,
     SnakeGame.NAME: SnakeGame,
-    DinoGame.NAME: DinoGame
+    DinoGame.NAME: DinoGame,
+    TetrisGame.NAME: TetrisGame
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -27,7 +29,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "CheckPointNames": "Checkpoint Names",
     "ExtractCharacterInfo": "Extract Character Info",
     "SnakeGame": "Snake Game 🐍",
-    "DinoGame": "Dino Game 🦖"
+    "DinoGame": "Dino Game 🦖",
+    "TetrisGame": "Tetris 🟦"
 }
 
 __all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]
